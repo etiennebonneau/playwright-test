@@ -66,7 +66,7 @@ tests/
 - **Environment variables** — `.env` files per environment for `BASE_URL` and credentials
 - **CI reporters** — add reporters for both local and CI environments
 - **Artifacts on failure** — screenshots, videos and Playwright traces for easier debugging
-- **Before/After hooks** — API-level login to speed up test execution
+- **Before/After hooks** — clear session state between scenarios to ensure test isolation
 - **tsconfig.json** — add a TypeScript configuration file for IDE type checking and CI type validation
 
 ### Tests feature coverage
